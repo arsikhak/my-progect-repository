@@ -1,0 +1,246 @@
+body{
+
+
+background:#2a7b9b;
+background:linear-gradient(180deg,rgba(42, 123, 155, 1) 10%, rgba(87, 199, 133, 1) 100%)
+
+}
+
+h1{
+font-family:Arial Black;
+font-size:30px;
+}
+h1:hover{
+font-family:Arial Black;
+font-size:35px;
+color:white;
+}
+.menu {
+  width: 180px;
+  border: 1px solid #aaa;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* Всі пункти */
+.menu li {
+  padding: 10px;
+  background: #fff;
+}
+
+/* Посилання */
+.menu li a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+/* Ховер */
+.menu li:hover {
+  background: #eee;
+}
+
+/* ❌ Ховаємо всі, крім першого */
+.menu li:not(:first-child) {
+  display: none;
+}
+
+/* ✅ Показуємо при наведенні */
+.menu:hover li {
+  display: block;
+}
+
+/* Курсор */
+.menu .current {
+  cursor: pointer;
+}
+
+a{
+font-family:Arial Black;
+font-size:20px;
+text-decoration:none;
+}
+h2{
+font-family:Arial Black;
+font-size:25px;
+}
+h2:hover{
+font-family:Arial Black;
+font-size:30px;
+color:white;
+}
+li{
+font-family:Arial Black;
+font-size:23.5px;
+}
+
+li:hover{
+font-family:Arial Black;
+color:white;
+font-size:24px;
+}
+ul{
+font-family:Arial Black;
+font-size:27px;
+}
+
+.dino-list{
+width:200px;
+
+}
+.west1{
+margin-left:670px;
+width:600px;
+height:400px;
+}
+.cell1{
+margin-left:50px;
+
+}
+.west2{
+width:700px;
+height:500px;
+/* margin-top:-300px;
+margin-bottom:20px;
+margin-left:500px; */
+
+}
+.west3{
+width:700px;
+height:500px;
+/* margin-top:-330px;
+margin-right:10px; */
+
+
+
+}
+.west4{
+width:700px;
+height:500px;
+margin-top:-300px;
+margin-left:240px;
+}
+.west5{
+margin-right:20px;
+}
+.west6{
+margin-right:200px;
+}
+
+.west7{
+width:400px;
+height:350px;
+}
+.west8{
+width:700px;
+height:500px;
+}
+.sov{
+margin-left:50px;
+}
+.second-table{
+margin-left:400px;
+}
+a{
+color:black;
+}
+a:hover{
+color:white;
+font-size:25px;
+}
+.west9{
+width:400px;
+height:350px;
+}
+
+.west10{
+width:400px;
+height:350px;
+}
+
+
+
+
+
+@media screen and (min-width:601px) and (max-width:1099px){
+
+.second-table{
+margin-left:220px;
+}
+
+
+
+.west1{
+margin-left:225px;
+width:600px;
+height:400px;
+}
+.west8{
+width:0px;
+height:0px;
+}
+
+.west3{
+width:0px;
+height:0px;
+}
+.west7{
+/* width:400px;
+height:350px;
+margin-left:-200px; */
+}
+
+.west10{
+ width:400px;
+height:350px;
+margin-left:-10px;
+}
+
+
+
+}
+@media screen and (max-width:600px){
+
+.west1{
+margin-left:10px;
+width:550px;
+height:350px;
+}
+.west8{
+
+
+width:550px;
+height:330px;
+}
+table,td{
+display:block;
+
+}
+.west2{
+width:550px;
+height:350px;
+}
+.west3{
+width:550px;
+height:350px;
+/* margin-top:-330px;
+margin-right:10px; */
+
+}
+
+.second-table{
+ margin-left:0;
+}
+
+
+}
+@media screen and (min-width:1100px){
+.second-table{
+ margin-left:270;
+}
+
+
+
+}
