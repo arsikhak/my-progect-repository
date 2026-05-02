@@ -5,7 +5,10 @@ background:#2a7b9b;
 background:linear-gradient(180deg,rgba(42, 123, 155, 1) 10%, rgba(87, 199, 133, 1) 100%)
 
 }
-
+west19.{
+margin-left:10px;
+margin-top:50px;
+}
 h1{
 font-family:Arial Black;
 font-size:30px;
